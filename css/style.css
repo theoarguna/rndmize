@@ -1,0 +1,54 @@
+* { -moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; }
+
+body{
+	background:#FFF;
+	font: 400 1.5em/1.5 "Droid Serif", serif;
+	color:#111;
+	text-align: center;
+	position:absolute;
+	height:100px;
+	width: 100%;
+}
+
+h1 { 
+	font-weight: 700; 
+	font-family: "Droid Sans", sans-serif; 
+	font-size: 2.8em; 
+	line-height: 1.2; 
+}
+
+h2 { 
+	font-weight: 700; 
+	font-size: 1.5em; 
+	font-family: "Droid Sans", sans-serif; 
+	margin: 1em 0; 
+}
+
+#banner { 
+	background: url(http://f.cl.ly/items/1b2V08451N440W0H420K/bg.jpg) no-repeat fixed 50% 0; 
+	background-size: cover; 
+	color: #fff; 
+	height: 100%; 
+	width: 100%; 
+	overflow: hidden; 
+}
+#content { 
+	max-width: 28em; 
+	text-align: justify; 
+	margin: 0 auto; 
+	padding: 2em; 
+}
+
+#content p { 
+	margin: 0 0 2em; 
+}
+
+@media screen and (min-width:30em){
+
+  #bannertext { 
+  max-width: 24em;
+  margin-left: -12em;    
+  }
+}
